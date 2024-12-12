@@ -1,0 +1,90 @@
+
+body{
+	background: #000;
+}
+
+h1{
+	color: #eee;
+	text-align: center;
+	font-family: Georgia;
+	background: #111;
+	padding: 10 px;
+	margin: 20px;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+a:hover{
+	background: linear-gradient(#5c4ed9, black);;
+}
+
+legend{
+	font-family: Georgia;
+	color: #ccc;
+}
+
+
+.flexbox{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-evenly;
+	gap: 20px;
+}
+
+.flex-item{
+	font-family: Georgia;
+	font-size: 26px;
+	color: #4ec2d9;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.flexbox-funcionamiento {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	align-content: center;
+}
+
+.flex-item-control{
+	display: flex;
+	flex-flow: column; wrap;
+	justify-content: space-evenly center;
+	align-items: center;
+	gap:20px;
+	width: 200px;
+}
+
+
+
+.flex-mensaje{
+	margin: auto;
+	height: 100px;
+	background: linear-gradient(#d1a93b, beige);
+	align-self: stretch;
+}
+
+.MenuInferior{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	align-content: center;
+	margin: auto;
+	margin-top: 28px;
+	width: 800px;
+	font-size: 18px;
+	font-family: Georgia;
+	
+	
+}
+
+.menuPrincipal, .opcion2{
+	
+	font-family: Georgia;
+	font-size: 18px;
+	color: #4ec2d9;
+	text-align: center;
+	padding: 20px;
+}
